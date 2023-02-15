@@ -207,11 +207,4 @@ app.listen(3000, function() {
 ```
 
 
-## 6. Webpack build tool
-
-## 7. Node JS Unit Test
-
-
-
-
 

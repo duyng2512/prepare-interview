@@ -223,6 +223,7 @@ public class ThreadSafeSingleton {
 }
 ```
 
+
 - Inconsistency of configuration in class:	- Checking check sum, in kafka message, compare to current check sum, if not match refetch using retry pattern.
 	
 - Redis Sharding data.
