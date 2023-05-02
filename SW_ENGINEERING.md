@@ -1109,6 +1109,11 @@ pstmt.executeUpdate();
 
 ![](img/sw_10.png)
 
+- SSO can be implement by:
+  - Oauth
+  - OpenID
+  - SAML (old)
+
 **OAUTH**
 
 Request flow:
@@ -1133,3 +1138,18 @@ Authorization code flow:
 PCKE enhancement:
     - Problems: some client app can not save Client Id, client secret so that PCKE provide a better way to handle it.
     - Request authorize and get access token will have code_challenge parametet into it.
+
+Opaque Tokens:
+    - Basically we want to hide data from JWT, it will require additional encrypt/decrypt
+
+
+
+**DEEP LINK**
+
+- Scheme of deep link:
+  - geo
+  - content
+  - sms ... 
+- Deep links have two kinds:
+    - For web: web links: for android 12 >, web links default open in browser
+    - For app: app links 
