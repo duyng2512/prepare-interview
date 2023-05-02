@@ -1,4 +1,5 @@
 [IAM]
+
 - IAM is service that manage user and group permission
 - Entity in IAM:
     - User
@@ -6,6 +7,7 @@
     - Policy: is a JSON document describe permission
 
 [EC2]
+
 - EC2 instance types:
     - Class
     - Generation
@@ -18,20 +20,24 @@
     - For high storage application
 
 [EBS]
+
 - EBS is volume of network that you can attach your instance into.
 - EBS can only mount to one instance at a time.
 - EBS is bound to AZ
 - EBS can be taken as a snaphost and copy across AZ
 
 [AMI]
+
 - AMI: AWS machine image.
 - EC2 can be taken as a snapshot and copy across region.
 
 [EC2 Instance Storage]
+
 - EC2 Instance storage is better perfomance alternatives of EBS.
 - Multiple EC2 instance can attach to EC2 instance storage.
 
 [ELB]
+
 - ELB: elastic load balancer. 
     + Feature:
         - Integrate with EC2
@@ -47,6 +53,7 @@
 - Cross zone balancing: with cross zone balancing, request is distributed evenly across multiple EC2 across AZ.
 
 [ASG]
+
 - Important attributes:
     - Min size
     - Max size
@@ -55,6 +62,7 @@
 - After scale, ASG have a cool down time before scale up or down again.
 
 [RDS]
+
 - RDS: relational database service.
 - Advantage of RDS:
     + Automated provisioning
@@ -70,6 +78,7 @@
     + Auto scale up by 10 GB increment, max to 128 TB.
 
 [VPC]
+
 - VPC: is regional resources.
 - VPC is partition into sub nets.
 - Each VPC have private and public subnets.
@@ -81,6 +90,7 @@
     + Direct connect
 
 [S3]
+
 - S3: is a file storage for AWS.
 - Bucket in S3 need to have unique name globally.
 - Key name in S3 include: prefix + object name.
@@ -88,6 +98,7 @@
 - S3 object can be moved across storage class.
 
 [CLOUD FRONT]
+
 - CDN network, 126 edge locations.
 - DDos protection.
 - Origin of CloudFront:
@@ -134,6 +145,7 @@
     - Service: managment system for tasks
 
 [SQS]
+
 - SQS: Simple queue services
 - Attributes:
     - No throughput limit, no number of messages stored.
@@ -145,9 +157,11 @@
 - Queue System processing, consumer need to poll, process then delete message. Consumer process a single message.
 
 [SNS]
+
 - Pub/Sub system, message can be send to multiple subcriber. 
 
 [LAMBDA]
+
 - Function: primary unit of lambda.
 - Pros:
     - No need to manage infra
@@ -159,6 +173,7 @@
     - Event processing with SNS + SQS
 
 [DYNAMODB]
+
 - Dynamo DB is a distributed NoSQL storage, that can automatically replicate data across AZ
 - Dynamo DB:
     - Primary key
